@@ -7,7 +7,7 @@ import java.util.Base64;
 public class Spottify {
 
   public static final String client_id = "e3f5bb82bf8d45c3a9d1503fd888bb64";
-  public static final String client_secret = "480763dc5a4f4c34827f2b5a5ac23df3";
+  public static final String client_secret = "2401488fc46f41568692c0b93c3a1850";
   public static final String redirect_url = "http://localhost:8083";
   HttpClient client = HttpClient.newBuilder().build();
   public static final String authorize_url = String.format("https://accounts.spotify.com/authorize?client_id=%s&redirect_uri=%s&response_type=code",
